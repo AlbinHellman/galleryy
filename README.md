@@ -1,5 +1,8 @@
 # Bring Retur
 
+## Info
+* https://developer.bring.com/api/booking/
+
 ## Flöde
 
 * Så loggar in med kundnr som finns i nuvarande system via ett API (saknas för tillfället).
