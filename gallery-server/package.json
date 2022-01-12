@@ -4,7 +4,8 @@
   "description": "Galler Ajax server",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "Bo Grus",
   "license": "ISC",
@@ -12,6 +13,10 @@
     "cores": "^0.8.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.6"
+    "node-fetch": "^2.6.6",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
