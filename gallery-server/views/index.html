@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
     <style>
 
@@ -27,13 +28,17 @@
     }
 
     .bild1 {
-        padding-top: 1rem;
+        padding-top: 0rem;
         padding-left: 10rem;
+       
     }
 
+    
+
     .right {
+        padding-top: 1rem;
         display: flex;
-        padding-left: 53rem;
+        padding-left: 48rem;
         text-decoration: none;
         text-align: center;
         
@@ -46,12 +51,12 @@
     }
 
     .right p {
-        padding-top: 3rem;
+        padding-top: 2rem;
         margin: 1rem;
         text-decoration: none;
         display: block;
         color: black;
-        height: 5rem;
+        height: 3rem;
         width: 9rem;
         
         
@@ -206,6 +211,38 @@
 }
   
 
+.bild2 {
+  float: right;
+  margin-top: -20rem;
+  position: relative;
+  right: 10rem;
+}
+
+.färgknappar {
+ background-color: rgb(236, 236, 236);
+ padding-left: 10rem;
+ padding-top: 25rem;
+ padding-bottom: 12rem;
+
+
+}
+
+.färgknappar button {
+  
+  margin-right: 15rem;
+}
+
+.grön {
+  background-color:rgb(153, 246, 153);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2rem;
+  
+}
+
+
    
   
 
@@ -216,7 +253,7 @@
     <div>
         <div class="navbar">
             <div class="bild1">
-    <img src="../bilder/the-worlds-artist-oil-painting-reproductions-logo.jpg" style="width: 80px; height: 80px;">
+    <img src="http://192.168.1.86:8080/apl/gallery-server/bilder/the-worlds-artist-oil-painting-reproductions-logo.jpg" style="width: 150px; height: 100px;">
             </div>
     <div class="right">
         
@@ -238,7 +275,7 @@
               <a href="#"><i class="fas fa-camera" style="font-size:23px;color:rgb(0, 0, 0)"></i> Mockup</a>
               <a href="#"><i class="fas fa-palette" style="font-size:23px;color:rgb(0, 0, 0)"></i> Artists</a>
               <a href="#"><i class="fas fa-portrait" style="font-size:23px;color:rgb(0, 0, 0)"></i> Studio</a>
-              <a href="#"><i class="fas fa-history" style="font-size:23px;color:rgb(0, 0, 0)"></i> And Now</a>
+              <a href="#"><i class="fas fa-history" style="font-size:23px;color:rgb(0, 0, 0)"></i> Then And Now</a>
               <a href="#"><i class="fas fa-phone" style="font-size:23px;color:rgb(0, 0, 0)"></i> Contact</a>
             </div>
           </div>
@@ -256,8 +293,19 @@
     
         <button>Art Gallery</button>
 
-        <img src="../bilder/art-gallery-g574d6802e_1920.jpg" style="width: 500px; height: 500px;">
+<div class="bild2">
+        <img src="http://192.168.1.86:8080/apl/gallery-server/bilder/art-gallery-g574d6802e_1920.jpg"  width="700" height="447">
+</div>
     
+</div>
+
+<div class="färgknappar">
+  <button class="grön">Home portrait</button>
+  <button>Made to order</button>
+  <button>People portrait</button>
+  <button>Pet Portrait</button>
+  <button>Famous paintings</button>
+
 </div>
 
 
