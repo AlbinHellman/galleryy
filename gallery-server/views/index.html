@@ -355,6 +355,8 @@ top: 0rem;
   width: 1800px;
 }
 
+
+
 .carousel {
   
   position: relative;
@@ -413,13 +415,14 @@ top: 0rem;
   animation-play-state: paused;
 }
 @keyframes slide-animation {
-  20%{left: 0px}
-  25%{left: -1900px}
-  45%{left: -1900px}
-  50%{left: -3800px}
-  70%{left: -3800px}
-  85%{left: -3800px}
-  95%{left: -3800px}
+  0%{left: -170px}
+  20%{left: -170px}
+  25%{left: -2100px}
+  45%{left: -2100px}
+  50%{left: -4000px}
+  70%{left: -4000px}
+  85%{left: -4000px}
+  95%{left: -4000px}
   100%{left: 0}
 
 }
@@ -443,13 +446,99 @@ top: 0rem;
 .carousel-caption h1 {
     display:table-cell;
     vertical-align: middle;
-    text-align:center;
+    text-align: center;
     color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    bottom: 22rem;
     
 }
 
 .text {
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: rgb(216, 215, 215);
+}
+
+.text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-left: 40rem;
+  width: 35rem;
+ 
+  
+}
+
+.card1 {
+  background-color: rgb(248, 93, 93);
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-bottom: 10rem;
+ 
+}
+
+.grid-item {
+ 
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding-top: 8rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.item1 h1 {
+  font-weight: normal;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item3 {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item3 p {
+  font-weight: normal;
+  width: 50rem;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+  text-align: left;
+  margin-left: 8rem;
+  
+}
+
+.item5 button {
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(255, 146, 146);
+}
+
+.item5 p {
+  font-size: 1.2rem;
 }
 
 
@@ -557,7 +646,17 @@ top: 0rem;
   
 </div>
 <div class="text">
-<h1>h1</h1>
+<h1>The world's Artist Oil Painting Reproductions And Portraiture.</h1>
+</div>
+<div class="card1">
+  <div class="grid-container">
+    <div class="grid-item item1"><h1>Museum Quality, Hand Painted, Oil Painting Reproductions On Canvas.</h1></div>
+    <div class="grid-item item2">2</div>
+    <div class="grid-item item3"><p>Choose from thousands of art replicas from the world's most renowned artists. Hand-painted, museum reproduction oil paintings..</p></div>  
+    <div class="grid-item item4">4</div>
+    <div class="grid-item item5"><a href="#"><button><p>Buy the Famous Painters Artwork</p></button></a></div>
+  </div>
+
 </div>
 
 
