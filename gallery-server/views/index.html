@@ -493,7 +493,7 @@ top: 0rem;
 .item1 {
   grid-column: 1 / span 2;
   grid-row: 1;
-  padding-top: 8rem;
+  padding-top: 10rem;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -590,7 +590,7 @@ top: 0rem;
   font-size: 2rem;
   text-align: right;
   padding-right: 12rem;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 .item9 p {
@@ -608,7 +608,7 @@ top: 0rem;
   width: 20rem;
   background-color: #F9CDFF;
   margin-left: 42rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 
 
 }
@@ -635,7 +635,7 @@ top: 0rem;
 .item11 {
   grid-column: 1 / span 2;
   grid-row: 1;
-  padding-top: 8rem;
+  padding-top: 10rem;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -688,6 +688,70 @@ top: 0rem;
 }
 
 
+
+.item16 { grid-area: header; }
+.item17 { grid-area: bild; }
+.item18 { grid-area: main; }
+.item19 { grid-area: right; }
+.item20 { grid-area: footer; }
+
+.grid-container3 {
+  background-color: #9CB8FF;
+  display: grid;
+  grid-template-areas:
+    'bild header header header header header'
+    'bild main main main right right'
+    'bild footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container3 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.item16 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 12rem;
+  padding-top: 8rem;
+}
+
+.item19 p {
+  width: 50rem;
+  font-size: 1.5rem;
+  text-align: center;
+  float: right;
+  padding-right: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item20 button {
+
+  height: 4rem;
+  width: 20rem;
+  background-color: #B8CCFF;
+  margin-left: 42rem;
+  margin-bottom: 8rem;
+
+
+}
+
+.item20 button:hover {
+  background-color: rgb(248, 228, 245);
+}
+
+.item20 p {
+
+  font-size: 1.2rem;
+
+}
 
 
 
@@ -828,6 +892,20 @@ top: 0rem;
   </div>
 
 
+</div>
+<div class="card5">
+  <div class="grid-container3">
+    <div class="item16"><h1>Pet Portrait Oil Painting From Your Photos</h1></div>
+    <div class="item17">Bild</div>
+    <div class="item19"><p>Your favorite dog, cat, horse, or pet painted in oil on canvas from your picture by
+      our portrait artists. See our darling pet portraiture section.</p></div>
+    <div class="item20"><a href="#"><button><p>Commission a Pet Portrait in Oil</p></button></a></div>
+  </div>
+
+</div>
+
+<div class="bild3">
+  
 </div>
 
 
