@@ -755,7 +755,7 @@ top: 0rem;
 
 .bild3 {
   text-align: center;
-  background-color: rgb(66, 93, 66);
+  background-color: rgb(11, 15, 11);
 }
 
 .bild3 img {
@@ -780,7 +780,7 @@ top: 0rem;
 .item21 h1 {
   font-weight: normal;
   text-align: left;
-  margin-left: 8rem;
+  margin-left: 15rem;
 }
 
 
@@ -824,11 +824,93 @@ top: 0rem;
 }
 
 
+.item26 { grid-area: header; }
+.item27 { grid-area: bild; }
+.item28 { grid-area: main; }
+.item29 { grid-area: right; }
+.item30 { grid-area: footer; }
+
+.grid-container4 {
+  background-color: #FF9090;
+  display: grid;
+  grid-template-areas:
+    'bild header header header header header'
+    'bild main main main right right'
+    'bild footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container4 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 
 
 
-   
+.item26 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 12rem;
+  padding-top: 8rem;
+}
+
+.item29 p {
+  width: 50rem;
+  font-size: 1.5rem;
+  text-align: center;
+  float: right;
+  padding-right: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item30 button {
+
+  height: 4rem;
+  width: 20rem;
+  background-color: #FFB9B9;
+  margin-left: 42rem;
+  margin-bottom: 8rem;
+
+
+}
+
+.item30 button:hover {
+  background-color: rgb(248, 228, 245);
+}
+
+.item30 p {
+
+  font-size: 1.2rem;
+
+}
+
+.bild4 {
+  text-align: center;
+  padding-bottom: 60rem;
+}
+
+.bild4 img {
+  height: 30rem;
+  width: 70rem;
+}
+
+
+.text2 h1{
+  font-size: 5rem;
+  margin-top: -17rem;
+  font-weight: normal;
+  font-family:Arial, Helvetica, sans-serif;
+
   
+
+}
+
+
+
 
 
     </style>
@@ -980,14 +1062,27 @@ top: 0rem;
 </div>
 <div class="card6">
 <div class="grid-container">
-  <div class="grid-item item21"><h1>Hand Painted, Custom Made, 
-    Oil Painting From Your Photographs!</h1></div>
+  <div class="grid-item item21"><h1>Home Portrait Made From Your House Photo</h1></div>
   <div class="grid-item item22">bild</div>
-  <div class="grid-item item23"><p>Anything you see, anywhere, anytime, take a photograph and send it to us. 
-    We turn photos into art. A custom, made to order work of fine art for you.
+  <div class="grid-item item23"><p>Our talented painters will do a 100% painted by hand, work of art of your house,
+    for your home. See our beautiful house portraits.
     </p></div>  
-  <div class="grid-item item24"><a href="#"><button><p>Request Custom Artwork</p></button></a></div>
+  <div class="grid-item item24"><a href="#"><button><p>Commision a House Portrait</p></button></a></div>
 </div>
+</div>
+<div class="card7">
+  <div class="grid-container4">
+    <div class="item26"><h1>Oil Painting Reproduction Wall Art Photo Mock-Up</h1></div>
+    <div class="item27">Bild</div>
+    <div class="item29"><p>An oil painting reproduction in your home?
+      Send us a photo, we will mock up your photo with your chosen art replica in your decor.</p></div>
+    <div class="item30"><a href="#"><button><p>Request a Free Wall Art Lockup</p></button></a></div>
+  </div>
+
+</div>
+<div class="bild4">
+  <img src="http://192.168.1.86:8080/apl/gallery-server/bilder/painting-2790478_1920.jpg" alt="">
+  <div class="text2"><h1>Famous Paintings</h1></div>
 </div>
 
 
