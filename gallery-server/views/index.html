@@ -1007,6 +1007,93 @@ form.example::after {
 }
 
 
+.item36 { grid-area: header; }
+.item37 { grid-area: bild; }
+.item38 { grid-area: main; }
+.item39 { grid-area: right; }
+.item40 { grid-area: footer; }
+
+.grid-container5 {
+  background-color: #FFFA81;
+  display: grid;
+  grid-template-areas:
+    'bild header header header header header'
+    'bild main main main right right'
+    'bild footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container5 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.item36 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 12rem;
+  padding-top: 8rem;
+}
+
+.item39 p {
+  width: 50rem;
+  font-size: 1.5rem;
+  text-align: center;
+  float: right;
+  padding-right: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item40 button {
+
+  height: 4rem;
+  width: 26rem;
+  background-color: #FFFCB5;
+  margin-left: 42rem;
+  margin-bottom: 8rem;
+
+
+}
+
+.item40 button:hover {
+  background-color: rgb(248, 228, 245);
+}
+
+.item40 p {
+
+  font-size: 1.2rem;
+
+}
+
+.footer {
+  background-color: #F0F0F0;
+  padding: 5rem;
+}
+
+
+
+
+
+.footer-link {
+  padding: 2rem;
+}
+
+.upper-footer  {
+  display: flex;
+  padding-left: 45rem;
+}
+
+
+
+
+
+
 
 
 
@@ -1196,6 +1283,23 @@ form.example::after {
       </p></div>  
     <div class="grid-item item34"><a href="#"><button><p>Read Artist Biographies and Buy Artwork Replicas</p></button></a></div>
   </div>
+</div>
+
+<div class="card9">
+  <div class="grid-container5">
+    <div class="item36"><h1>THEN AND NOW Famous Painting Locations</h1></div>
+    <div class="item37">Bild</div>
+    <div class="item39"><p>See the locations where the artists set up their easel to paint.
+      Also included in this section is the new Tilt-Shift photos of famous oil paintings.</p></div>
+    <div class="item40"><a href="#"><button><p>View Then and Now and Tilt-Shift Photos</p></button></a></div>
+  </div>
+
+</div>
+<div class="footer">
+  <div class="upper-footer">
+  <div class="footer-link"><a href="#"><p>Oil Painting Care</p></a></div>
+  <div class="footer-link"><a href="#"><p>Canvas Sizes</p></a></div>
+</div>
 </div>
 
 
