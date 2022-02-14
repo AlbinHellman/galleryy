@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
 
     * {
@@ -180,6 +183,101 @@
       
       }
 
+      .färgknappar {
+ background-color: rgb(245, 245, 245);
+ padding-left: 13rem;
+ padding-top: 10rem;
+ padding-bottom: 12rem;
+ 
+ 
+ 
+ 
+
+
+}
+
+.färgknappar button {
+  
+  margin-right: 11.5rem;
+ 
+ 
+
+  
+}
+
+.grön {
+  background-color:rgb(153, 246, 153);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.grön:hover {
+  background-color: rgb(204, 250, 207);
+}
+
+.orange {
+  background-color:rgb(255, 199, 109);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.orange:hover {
+  background-color: rgb(250, 238, 204);
+}
+
+
+.lila {
+  background-color:rgb(255, 151, 241);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.lila:hover {
+  background-color: rgb(241, 204, 250);
+}
+
+
+.blå {
+  background-color:rgb(153, 167, 246);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2rem;
+  
+}
+
+.blå:hover {
+  background-color: rgb(207, 204, 250);
+}
+
+
+.röd {
+  background-color:rgb(246, 153, 153);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 11rem;
+  height: 2rem;
+  
+}
+
+.röd:hover {
+  background-color: rgb(250, 204, 204);
+}
+
     </style>
 
 </head>
@@ -188,7 +286,7 @@
         <div class="navbar">
             <div class="container flex-nav">
               <div class="nav-header">             
-              <a href="#"><img src="http://192.168.1.86:8080/apl/gallery-server/bilder/the-worlds-artist-oil-painting-reproductions-logo.jpg" class="bild1" style="width: 150px; height: 100px;"></a>
+              <a href="/"><img src="http://192.168.1.86:8080/apl/gallery-server/bilder/the-worlds-artist-oil-painting-reproductions-logo.jpg" class="bild1" style="width: 150px; height: 100px;"></a>
               <button class="nav-toggle" id="navToggle">
                 <i class="fas fa-bars"></i>
               </button>
@@ -196,7 +294,7 @@
               <nav class="nav-links" id="nav-links">
                 <ul>
                   
-                <li class="nav-link"><a href="#"><p>Home</p></a></li>
+                <li class="nav-link"><a href="/"><p>Home</p></a></li>
                 <li class="nav-link"><a href="/AboutUs"><p>About Us</p></a></li>
                 <li class="nav-link"><a href="#"><p>Artist Biographies</p></a></li>
                 <li class="nav-link"><a href="#"><p>Art Movements</p></a></li>
@@ -211,6 +309,16 @@
               </nav>
             </div>
           </div>
+
+          <div class="färgknappar">
+            <a href="#"><button class="grön">Home portrait</button></a>
+            <a href="#"><button class="orange">Made to order</button></a>
+            <a href="#"><button class="lila">People portrait</button></a>
+              <a href="#"><button class="blå">Pet Portrait</button></a>
+                <a href="#"><button class="röd">Famous paintings</button></a>
+          
+          </div>
+
     </div>
 </body>
 <script>
