@@ -525,6 +525,57 @@
 }
 
 
+.item6 { grid-area: header; }
+.item7 { grid-area: bild; }
+.item8 { grid-area: main; }
+.item9 { grid-area: right; }
+.item10 { grid-area: footer; }
+
+.grid-container2 {
+  background-color: #C94F4F;
+  display: grid;
+  grid-template-areas:
+    'bild header header header header header'
+    'bild main main main right right'
+    'bild footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container2 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.item6 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 14rem;
+  padding-top: 8rem;
+  color: white;
+}
+
+.item7 {
+  margin: 7rem;
+  margin-top: 12rem;
+}
+
+.item9 p {
+  color: white;
+  width: 40rem;
+  font-size: 1.3rem;
+  text-align: left;
+  float: right;
+  padding-right: 16.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 
 
@@ -653,6 +704,22 @@
           <div class="grid-item item5"><p>It's not rocket science, but it is art science.</p></div>
         </div>
       
+      </div>
+      <div class="card3">
+        <div class="grid-container2">
+          <div class="item6"><h1>How Renoir Painted Oil Paintings and Portraits?</h1></div>
+          <div class="item7"><img src="http://192.168.1.86:8080/apl/gallery-server/bilder/hand-painted-portrait-oil-paintings-from-photographs-on-canvas.jpg" alt=""></div>
+          <div class="item9"><p>We paint the same way that Rembrandt and Renoir painted. We use paint
+            brushes, oil paints, canvas, an artist palette and a mahl stick. That's it, he 
+            painted that way and we paint it that way, 100% painted by hand on 
+            canvas. Many of the renowned painters as part of their artistic training, 
+            were required to go to the museums and reproduce famous oil paintings 
+            on location. If they liked a particular artist or they wanted to paint in the 
+            same artistic style, then in addition to their Academy training, the art 
+            museum was the place to go. You can read in our art movements or artist 
+            biography section about all the artists that started off doing what we are 
+            doing, making oil painting reproductions of famous art masterpieces.</p></div>
+        </div>
       </div>
     </div>
 </body>
