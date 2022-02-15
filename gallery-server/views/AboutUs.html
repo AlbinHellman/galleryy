@@ -441,6 +441,90 @@
     color: rgb(104, 104, 104);
 }
 
+.card1 {
+  background-color: #FF9090;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-bottom: 10rem;
+ 
+}
+
+.grid-item {
+ 
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding-top: 10rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60rem;
+  
+}
+
+.item1 h1 {
+  font-weight: normal;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item2 img {
+  margin-left: -45rem;
+  margin-bottom: -20rem;
+}
+
+.item3 {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item3 p {
+  font-weight: normal;
+  width: 40rem;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+  text-align: left;
+  margin-left: 8rem;
+  
+}
+
+.item5 button {
+  height: 4rem;
+  width: 20rem;
+  background-color: #FCA6A6;
+}
+
+.item5 button:hover {
+  background-color: rgb(248, 199, 199);
+}
+
+.item5 p {
+  font-size: 1.2rem;
+}
+
+.item7 {
+  margin-left: 5rem;
+}
+
 
 
 
@@ -551,6 +635,15 @@
             Take a fresh look at Tilt-Shift paintings by many painters including: Achenbach, Bierstadt, Constable, El Greco,
             Guillaumin, Picabia, Turner and of course Tilt-Shift Van Gogh. See them all in our THEN & NOW art section.</p>
      </div>
+     <div class="card1">
+        <div class="grid-container">
+          <div class="grid-item item1"><h1>See our Talented Artists Painting in our Art Studio</h1></div>
+          <div class="grid-item item2"><img src="http://192.168.1.86:8080/apl/gallery-server/bilder/the-worlds-artist-studio.jpg" alt=""></div>
+          <div class="grid-item item3"><p>Choose from thousands of art replicas from the world's most renowned artists. Hand-painted, museum reproduction oil paintings..</p></div>  
+          <div class="grid-item item5"><a href="#"><button><p>Buy the Famous Painters Artwork</p></button></a></div>
+        </div>
+      
+      </div>
     </div>
 </body>
 <script>
