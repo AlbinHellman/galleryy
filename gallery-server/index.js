@@ -29,6 +29,9 @@ const server = http.createServer((req, res) => {
          case '/AboutUs':
              url = 'AboutUs.html';
              break;
+             case '/ArtMockup':
+                 url = 'ArtMockup.html';
+                 break;
              default:
                  url = '404.html';
                  break;
