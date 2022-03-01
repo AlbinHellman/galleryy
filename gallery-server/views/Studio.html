@@ -185,6 +185,141 @@
     }
     
 
+    .färgknappar {
+ background-color: rgb(245, 245, 245);
+ padding-left: 13rem;
+ padding-top: 10rem;
+ padding-bottom: 4rem;
+ 
+ 
+ 
+ 
+
+
+}
+
+.färgknappar button {
+  
+  margin-right: 11.5rem;
+ 
+ 
+
+  
+}
+
+.grön {
+  background-color:rgb(153, 246, 153);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.grön:hover {
+  background-color: rgb(204, 250, 207);
+}
+
+.orange {
+  background-color:rgb(255, 199, 109);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.orange:hover {
+  background-color: rgb(250, 238, 204);
+}
+
+
+.lila {
+  background-color:rgb(255, 151, 241);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2rem;
+  
+}
+
+.lila:hover {
+  background-color: rgb(241, 204, 250);
+}
+
+
+.blå {
+  background-color:rgb(153, 167, 246);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2rem;
+  
+}
+
+.blå:hover {
+  background-color: rgb(207, 204, 250);
+}
+
+
+.röd {
+  background-color:rgb(246, 153, 153);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 11rem;
+  height: 2rem;
+  
+}
+
+.röd:hover {
+  background-color: rgb(250, 204, 204);
+}
+
+.example {
+    padding-top: -15rem;
+    float: left;
+    padding-left: 9.5rem;
+}
+
+.knapp {
+    width: 4rem;
+    height: 3rem;
+    border-radius: 1.6rem;
+    background-color: rgb(75, 144, 255);
+    color: white;
+    border-width: thin;
+}
+
+.knapp:hover {
+    background-color: rgb(4, 118, 248);
+}
+
+.sökfält {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(245, 245, 245);
+    border-width: thin;
+}
+
+input[type="text"]::placeholder {  
+    font-size: 1rem;
+} 
+
+input[type="text"], select {  
+    font-size: 1rem;
+    padding-left: 20px; 
+} 
+
+.fa-search {
+    font-size: 1rem;
+}
+
+
         </style>
 </head>
 <body>
@@ -215,6 +350,20 @@
             </nav>
           </div>
         </div>
+        <div class="färgknappar">
+          <a href="#"><button class="grön">Home portrait</button></a>
+          <a href="#"><button class="orange">Made to order</button></a>
+          <a href="#"><button class="lila">People portrait</button></a>
+            <a href="#"><button class="blå">Pet Portrait</button></a>
+              <a href="#"><button class="röd">Famous paintings</button></a>
+        
+        </div>
+        <div class="searchbar">
+          <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+            <input class="sökfält" type="text" placeholder="Search.." name="search2">
+            <button class="knapp" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          </div>
 
 
     </div>
