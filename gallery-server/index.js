@@ -33,8 +33,8 @@ const server = http.createServer((req, res) => {
                  url = 'ArtMockup.html';
                  break;
                  case '/Studio':
-                 url = 'Studio.html';
-                 break;
+                     url = 'Studio.html';
+                     break;
              default:
                  url = '404.html';
                  break;
