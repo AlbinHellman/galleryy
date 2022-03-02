@@ -531,6 +531,70 @@ input[type="text"], select {
   font-weight: bold;
 }
 
+.item13 { grid-area: header; }
+.item14 { grid-area: bild; }
+.item15 { grid-area: main; }
+.item16 { grid-area: right; }
+.item17 { grid-area: footer; }
+
+.grid-container5 {
+  background-color: #A093D2;
+  display: grid;
+  grid-template-areas:
+    'bild header header header header header'
+    'bild main main main right right'
+    'bild footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container5 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.item13 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: right;
+  margin-left: -10rem;
+  padding-top: 25rem;
+  color: black;
+  width: 70rem;
+  
+}
+
+.item14 {
+  margin: 7rem;
+  margin-left: 7.8rem;
+  padding-top: 12rem;
+}
+
+.item14 img {
+    width: 30rem;
+    
+}
+
+.item15 {
+}
+
+.item15 img {
+  width: 50rem;
+  padding-top: 5rem;
+  margin-left: -41.5rem;
+}
+
+.span2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
 
         </style>
@@ -642,6 +706,13 @@ input[type="text"], select {
                   on canvas.</p></div>
               </div>
             
+            </div>
+            <div class="card4">
+              <div class="grid-container5">
+                <div class="item13"><h1>Vincent Van Gogh Starry Night.</h1></div>
+                <div class="item14"><img src="http://127.0.0.1:8080/bilder/vincent-van-gogh-starry-night-oil-painting-reproduction.jpg" alt=""></div>
+                <div class="item15"><span class="span4"><img src="http://127.0.0.1:8080/bilder/vincent-van-gogh-starry-night-oil-painting-reproduction-in-progress.jpg" alt=""></span></div>
+              </div>
             </div>
 
     </div>
