@@ -38,6 +38,9 @@ const server = http.createServer((req, res) => {
                      case '/ThenAndNow':
                      url = 'ThenAndNow.html';
                      break;
+                     case '/OurArtists':
+                         url = 'OurArtists.html';
+                         break;
              default:
                  url = '404.html';
                  break;
