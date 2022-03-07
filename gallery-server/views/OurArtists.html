@@ -387,7 +387,7 @@ input[type="text"], select {
   font-weight: normal;
   font-size: 2rem;
   text-align: right;
-  margin-left: -10rem;
+  margin-left: -3rem;
   padding-top: 7rem;
   color: black;
   width: 70rem;
@@ -396,7 +396,7 @@ input[type="text"], select {
 
 .item7 {
 margin-top: 3rem;
-  margin-left: 7.8rem;
+  margin-left: 7.3rem;
 }
 
 .item7 img {
@@ -434,7 +434,7 @@ margin-top: 3rem;
   font-weight: normal;
   font-size: 2rem;
   text-align: right;
-  margin-left: -13rem;
+  margin-left: -18.5rem;
   padding-top: 13rem;
   color: black;
   width: 70rem;
@@ -442,7 +442,7 @@ margin-top: 3rem;
 }
 
 .item10 {
-  margin-left: 50rem;
+  margin-left: 61rem;
   margin-top: -10rem;
 }
 
@@ -484,10 +484,11 @@ margin-top: 3rem;
   font-weight: normal;
   font-size: 2rem;
   text-align: right;
-  margin-left: -10rem;
+  margin-left: -14rem;
   padding-top: 24rem;
   color: black;
   width: 70rem;
+  padding-bottom: 15rem;
   
 }
 
@@ -497,19 +498,19 @@ margin-top: 10rem;
 
 .item14 img {
     width: 20rem;
-    padding-right: 10rem;
+    padding-right: 12rem;
 }
 
 .item15 img {
     width: 20rem;
     padding-top: 10rem;
-    padding-left: 30rem;
+    padding-left: 28rem;
 }
 
 .item16 img {
     padding-top: 24rem;
     width: 40rem;
-    padding-left: 10rem;
+    padding-left: 8rem;
 }
 
 .footer {
@@ -613,6 +614,52 @@ margin-top: 10rem;
     font-weight: normal;
 }
 
+.item21 { grid-area: header; }
+.item20 { grid-area: bild; }
+.item8 { grid-area: main; }
+.item9 { grid-area: right; }
+.item10 { grid-area: footer; }
+
+.grid-container4 {
+  background-color: #dfdede;
+  display: grid;
+  grid-template-areas:
+    'header header header header header bild'
+    'main main main right right bild'
+    'footer footer footer footer footer bild';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container4 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.item21 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 9rem;
+  padding-top: 5rem;
+  color: black;
+  width: 70rem;
+  
+}
+
+.item20 {
+ margin-right: 9.2rem;
+  margin-top: 1rem;
+}
+
+.item20 img {
+    width: 10rem;
+}
+
 
         </style>
 </head>
@@ -707,6 +754,14 @@ margin-top: 10rem;
               <div class="text3">
                 <h1>How to Paint a Full Size Painitng from a Photographic Reference:</h1>
             </div>
+
+            <div class="card5">
+                <div class="grid-container4">
+                  <div class="item20"><img src="http://127.0.0.1:8080/bilder/the-worlds-artist-painting-in-a-museum.jpg" alt=""></div>
+                  <div class="item21"><p>Our family of gifted studio artists, hand paint the best quality, canvas reproduction oil paintings and portrait in oil from photographs. We are proud of them because, to tell the truth, they are more talented than many acclaimed painters exhibiting in galleries today. Each is a specialist in their chosen style and technique that is identical to the original painters.</p></div>
+                  <div class="item22"></div>
+                </div>
+              </div>
 
               <div class="footer">
                 <div class="upper-footer">
