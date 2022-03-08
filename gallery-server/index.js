@@ -41,8 +41,8 @@ const server = http.createServer((req, res) => {
                      case '/OurArtists':
                          url = 'OurArtists.html';
                          break;
-                         case '/Studio':
-                             url = 'Studio.html';
+                         case '/Contact':
+                             url = 'Contact.html';
                              break;
              default:
                  url = '404.html';
