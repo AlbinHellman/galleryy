@@ -208,6 +208,18 @@
       margin-left: 25rem;
     }
 
+    .upper {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .space {
+      padding-right: 5rem;
+    }
+
+    
+
     .footer {
   background-color: #F0F0F0;
   padding: 5rem;
@@ -336,12 +348,18 @@
         </div>
         <div class="container">
           <form action="action_page.php">
+        <div class="upper">
+          <div class="space">
+            
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+          </div>
+
+            
+            <input type="text" id="email" name="email" placeholder="Email">
+        </div>
         
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
+            
+            <select id="country" name="country" placeholder="Country">
               <option value="afghanistan">Afghanistan</option>
               <option value="albania">Albania</option>
               <option value="algeria">Algeria</option>
