@@ -208,10 +208,32 @@
       margin-left: 25rem;
     }
 
+    .text2 {
+      text-align: center;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    .text2 h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3rem;
+      font-weight: normal;
+
+    }
+
+    .containerbackground {
+      background-color: #7B78FB;
+    }
+
     .upper {
       display: flex;
       justify-content: center;
       
+    }
+
+    .secondupper {
+      display: flex;
+      justify-content: center;
     }
 
     .space {
@@ -346,7 +368,10 @@
 
           </p>
         </div>
-        <div class="container">
+        <div class="containerbackground">
+          <div class="text2">
+            <h1>Contact Us</h1>
+          </div>
           <form action="action_page.php">
         <div class="upper">
           <div class="space">
@@ -357,6 +382,8 @@
             
             <input type="text" id="email" name="email" placeholder="Email">
         </div>
+
+        <div class="secondupper">
         
             
             <select id="country" name="country" placeholder="Country">
@@ -556,6 +583,9 @@
               
               
             </select>
+
+            <input type="text" id="company" name="company" placeholder="Company">
+        </div>
         
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
