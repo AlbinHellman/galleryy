@@ -283,6 +283,10 @@
       padding-left: 2.5rem;
      }
 
+     input[type="email"]::placeholder { 
+      padding-left: 2.5rem;
+     }
+
      select {
        text-indent: 2.5rem;
        color: grey;
@@ -428,7 +432,10 @@
           </div>
 
             <div class="space1">
-            <input type="text" class="inputs" id="email" name="email" placeholder="Email"><i class="far fa-envelope"></i>
+              <form>
+            <input type="email" class="inputs"  placeholder="Email" name="email" required><i class="far fa-envelope"></i>
+           
+              
             </div>
         </div>
 
@@ -648,7 +655,8 @@
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
-            <input type="submit" value="Submit">
+            <input type="submit" value="Validate">
+          </form>
         
           </form>
         </div>
@@ -692,6 +700,9 @@
     navToggle.addEventListener("click", () => {
       nav.classList.toggle('nav-open')
     })
+
+
+    
     
     
     
