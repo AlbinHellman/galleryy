@@ -516,6 +516,12 @@ input[type="text"], select {
       padding-left: 31rem;
     }
 
+    .fourth i{
+      padding-top: 5rem;
+      text-align: center;
+      padding-left: 31rem;
+    }
+
     input[type="text1"]::placeholder { 
       font-family: Arial, Helvetica, sans-serif;
       padding-left: 0rem;
@@ -538,6 +544,12 @@ input[type="text"], select {
     font-size: 1.1rem;
     padding-left: 3.5rem; 
 } 
+
+textarea[type="subject"]::placeholder { 
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: -1rem;
+      font-size: 1.1rem;
+     }
 
 .form-item__element {
   display: inline-block;
@@ -985,7 +997,7 @@ input[type="text"], select {
         <div class="fourth">
         
             <label for="subject">Subject</label>
-            <textarea id="subject" class="inputs5" name="subject" placeholder="Write something.."></textarea>
+            <textarea id="subject" type="subject" class="inputs5" name="subject" placeholder="Message"></textarea><i class="fa-solid fa-message-lines"></i>
         
             <input type="submit" value="Validate">
           </form>
