@@ -381,6 +381,13 @@ input[type="text"], select {
       border-radius: 0.7rem;
       border: none;
     }
+
+    .inputs18 {
+      height: 3rem;
+      width: 15rem;
+      border-radius: 0.7rem;
+      border: none;
+    }
   
 
    
@@ -419,7 +426,7 @@ input[type="text"], select {
     }
 
     .space2 i {
-      margin-left: -12rem;
+      margin-left: -14rem;
       font-size: 1.3rem;
     }
 
@@ -495,6 +502,12 @@ input[type="text"], select {
     font-size: 1.1rem;
     padding-left: 3.5rem; 
 } 
+
+option[type="country"]::placeholder { 
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: -5rem;
+      font-size: 1.1rem;
+     }
 
      select {
        text-indent: 2.5rem;
@@ -667,10 +680,13 @@ input[type="text"], select {
 
         <div class="secondupper">
           <div class="space2">
-        
-            
-            <select id="country" class="inputs" name="country" placeholder="Country">
-              <option value="afghanistan">Afghanistan</option>
+
+            <div class="form-item">
+              <label class="form-item__label" for="select"></label>
+              <div class="select-wrap">
+                <select type="country" id="country" class="inputs18" name="country" placeholder="Country" required>
+                  <option disabled selected value="">Country</option>
+                  <option value="afghanistan">Afghanistan</option>
               <option value="albania">Albania</option>
               <option value="algeria">Algeria</option>
               <option value="andorra">Andorra</option>
@@ -863,10 +879,13 @@ input[type="text"], select {
               <option value="yemen">Yemen</option>
               <option value="zambia">Zambia</option>
               <option value="zimbabwe">Zimbabwe</option>
-              
+                </select>
+                <i class="fas fa-flag"></i>
+              </div>
+            </div>
+        
             
-            </select>
-            <i class="fas fa-flag"></i>
+           
           </div>
 
           <div class="space3">
@@ -953,6 +972,11 @@ input[type="text"], select {
     navToggle.addEventListener("click", () => {
       nav.classList.toggle('nav-open')
     })
+
+
+    document.querySelector('select').addEventListener('change', (e) => {
+  e.currentTarget.classList.remove('has-placeholder');
+});
 
 
     
