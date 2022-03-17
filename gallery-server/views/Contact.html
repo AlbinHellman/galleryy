@@ -335,7 +335,7 @@ input[type="text"], select {
     .text1 p {
       padding-top: 5rem;
       padding-bottom: 11rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: normal;
       width: 85rem;
@@ -449,14 +449,14 @@ input[type="text"], select {
 
     .inputs2 {
       height: 3rem;
-      width: 30rem;
+      width: 29.3rem;
       border-radius: 0.7rem;
       border: none;
     }
 
     .inputs3 {
       height: 3rem;
-      width: 32rem;
+      width: 32.8rem;
       border-radius: 0.7rem;
       border: none;
     }
@@ -464,22 +464,22 @@ input[type="text"], select {
     .third {
       text-align: center;
       padding-top: 5rem;
-      padding-right: 30rem;
+      padding-right: 32.5rem;
     }
 
     .third i {
-      margin-left: -30rem;
+      margin-left: -31.5rem;
       font-size: 1.3rem;
     }
 
     .third2 {
       text-align: center;
       padding-top: 5rem;
-      padding-right: 30.5rem;
+      padding-right: 33rem;
     }
 
     .third2 i {
-      margin-left: -31rem;
+      margin-left: -32rem;
       font-size: 1.3rem;
     }
 
@@ -926,15 +926,22 @@ input[type="text"], select {
         </div>
 
         <div class="third2">
-          <select id="country" class="inputs3" name="country" placeholder="Select Department">
-            <option value="information">Information</option>
-            <option value="made to order">Made to Order</option>
-            <option value="mock up">Mock Up</option>
-            <option value="sales">Sales</option>
-            <option value="portraits">Portraits</option>
+
+
+          <div class="form-item">
+            <label class="form-item__label" for="select" ></label>
+            <div class="select-wrap">
+              <select type="department" id="department" class="inputs3" name="department" required>
+                <option disabled selected value="" >Select Department</option>
+                <option value="information">Information</option>
+                <option value="made to order">Made to Order</option>
+                <option value="mock up">Mock Up</option>
+                <option value="sales">Sales</option>
+                <option value="portraits">Portraits</option>
       </select>
       <i class="fa-solid fa-building"></i>
         </div>
+      </div>
 
       
 
