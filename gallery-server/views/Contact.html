@@ -470,7 +470,7 @@ input[type="text"], select {
 
     .inputs5 {
       height: 16rem;
-      width: 33rem;
+      width: 30rem;
       border-radius: 0.7rem;
       border: none;
     }
@@ -513,7 +513,7 @@ input[type="text"], select {
     .fourth {
       padding-top: 5rem;
       text-align: center;
-      padding-left: 31rem;
+      padding-left: 30rem;
     }
 
     .fourth i{
@@ -545,9 +545,18 @@ input[type="text"], select {
     padding-left: 3.5rem; 
 } 
 
-textarea[type="subject"]::placeholder { 
+textarea[type="subject1"]::placeholder { 
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: -1rem;
+      padding-left: -3rem;
+      padding-top: 0rem;
+      font-size: 1.1rem;
+     }
+
+     textarea[type="subject1"] { 
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 3rem;
+      padding-top: 1rem;
+      
       font-size: 1.1rem;
      }
 
@@ -996,8 +1005,8 @@ textarea[type="subject"]::placeholder {
 
         <div class="fourth">
         
-            <label for="subject">Subject</label>
-            <textarea id="subject" type="subject" class="inputs5" name="subject" placeholder="Message"></textarea><i class="fa-solid fa-message-lines"></i>
+            <label for="subject1">Subject</label>
+            <textarea id="subject1" type="subject1" class="inputs5" name="subject" placeholder="Message"></textarea><i class="fa-solid fa-message-lines"></i>
         
             <input type="submit" value="Validate">
           </form>
