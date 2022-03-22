@@ -394,6 +394,11 @@ input[type="text"], select {
       border-radius: 0.7rem;
       border: none;
     }
+
+    .imagesearch2 {
+      height: 3rem;
+      width: 8rem;
+    } 
   
 
    
@@ -515,7 +520,7 @@ input[type="text"], select {
     .fourth {
       margin-top: 5rem;
       text-align: center;
-      padding-right: 3rem;
+      
     }
 
      .fa-comment-alt {
@@ -608,7 +613,19 @@ textarea[type="subject1"]::placeholder {
        background-color: rgb(152, 174, 243);
      }
 
-    
+     .label1 {
+       padding-top: 3rem;
+       padding-left: 3.3rem;
+       font-size: 1.5rem;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .imagesearch {
+       padding-top: 3rem;
+       padding-left: 13.5rem;
+     }
+
+     
 
     .footer {
   background-color: #F0F0F0;
@@ -1025,16 +1042,25 @@ textarea[type="subject1"]::placeholder {
 
         
         <div class="fourth">
-          
-            <label for="subject1">Subject</label>
+           
+         
             <textarea id="subject1" type="subject1" class="inputs5" name="subject" placeholder="Message"></textarea><i class="fas fa-comment-alt"></i>
           </div>
+          <form action="/action_page.php" >
+            <div class="label1">
+            <label for="img" class="label1" >Select image:</label>
+            </div>
+            <div class="imagesearch">
+            <input type="file" class="img" id="img" name="img" accept="image/*">
+            </div>
+
           <div class="submit">
             <input type="submit" value="Submit">
           </div>
           </form>
         
           </form>
+        </form>
     </div>
 
         <div class="footer">
