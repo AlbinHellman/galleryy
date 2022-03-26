@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
     <style>
 
 
@@ -375,6 +376,71 @@ input[type="text"], select {
   width: 80rem;
 }
 
+.card1 {
+  background-color: #E3B877;
+  height: 35rem;
+  
+}
+
+.grid-container {
+    
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-bottom: 10rem;
+ 
+}
+
+.grid-item {
+ 
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  padding-top: 3rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60rem;
+  
+}
+
+.item1 h1 {
+    color: black;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item2 img {
+  margin-left: -29rem;
+  margin-bottom: -24rem;
+  width: 35rem;
+}
+
+.item3 {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item3 p {
+  font-weight: normal;
+  width: 60rem;
+  text-align: left;
+  margin-left: 8rem;
+  padding-top: 1rem;
+  color: black;
+}
+
 
     </style>
 </head>
@@ -446,6 +512,33 @@ input[type="text"], select {
                 <p>Take a fresh look at Tilt-Shift paintings by many painters including: Achenbach, Bierstadt, Constable, El Greco, Guillaumin, Picabia, 
                 Turner and of course Tilt-Shift Van Gogh.</p>
             </div>
+
+            
+            <div class="card1">
+              <div class="grid-container">
+                <div class="grid-item item1"><h1>Achenbach - Oswald Achenbach Market ‘Square in Amalfi</h1></div>
+                <div class="grid-item item2"><img src="http://127.0.0.1:8080/bilder/1474951857-34.jpg" alt=""></div>
+                <div class="grid-item item3"><p>This painting was done in 1876. It does resemble the present day 
+                  facade because the front exterior was modified in 1891 after the first 
+                  one caved in.</p>
+                  
+                  <p>It is of striped marble and stone with open arches that have lace 
+                  detailing not found in Italian sacred architecture while the tiled 
+                  dome is quite common among churches of the area.</p>
+                  
+                  <p>Amalfi Cathedral (Cattedrale di Sant'Andrea/Duomo di Amalfi) is a 
+                  ninth century Roman Catholic structure in the Piazza del Duomo, A
+                  malfi, Italy. It is dedicated to the Apostle Saint Andrew. 
+                  Of Arab-Norman Romanesque architectural style, it has been 
+                  redesigned several times, adding Romanesque, Byzantine, Gothic, 
+                  and Baroque elements. The cathedral includes the adjoining ninth 
+                  century Basilica of the Crucifix.</p>
+                  
+                  <p>The newer cathedral was built alongside to the older basilica that was 
+                  built on the remains of a previous temple. The remaining of St. Andrew 
+                  were supposedly brought to Amalfi from Constantinople in 1206 during 
+                  the Fourth Crusade by Cardinal Peter of Capua in 1208.</p></div>  
+              </div>
    
     
 </body>
