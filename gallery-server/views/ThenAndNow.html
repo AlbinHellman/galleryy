@@ -510,6 +510,31 @@ input[type="text"], select {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.pagination {
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a {
+  color: #fff;
+}
+
+.previous-page, .next-page{
+  background: #0AB1CE;
+}
+
+.current-page, .dots {
+  background: #ccc;
+  width: 45px;
+}
+
     </style>
 </head>
 <body>
@@ -619,6 +644,16 @@ input[type="text"], select {
                     <p>Read the interesting biography of Oswald Achenbach and see all the famous oil painting reproductions 
                     by Achenbach. Click Market Square in Amalfi if you like the oil painting and want to purchase it.</p></div>
                 </div>
+              </div>
+              <div class="pagination">
+                <li class="page-item prevoius-page"><a class="page-link" href="#">Prev</a></li>
+                <li class="page-item current-page"><a class="page-link" href="#">1</a></li>
+                <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+                <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+                <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+                <li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+                <li class="page-item next-page"><a class="page-link" href="#">Next</a></li>
               </div>
    
     
