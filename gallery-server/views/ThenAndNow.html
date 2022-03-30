@@ -556,10 +556,14 @@ input[type="text"], select {
 }
 
 .current-page, .dots {
-  background: #C1C1C1;
+  background: rgb(226, 226, 226);
   width: 50px;
   cursor: pointer;
   
+}
+
+.active {
+  background-color: #C1C1C1;
 }
 
     </style>
@@ -674,7 +678,7 @@ input[type="text"], select {
               </div>
               <div class="pagination">
                 <li class="page-item previous-page"><a class="page-link" href="#"><span style="color: white;">Prev</span></a></li>
-                <li class="page-item current-page"><a class="page-link" href="#">1</a></li>
+                <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
                 <li class="page-item dots"><a class="page-link" href="#">...</a></li>
                 <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
                 <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
