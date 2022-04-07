@@ -600,6 +600,60 @@ input[type="text"], select {
           margin-bottom: -4rem;
         }
 
+
+        .container-fluid {
+          background-color: #E3B877;
+          height: 60vh;
+          opacity: .8;
+          position: static;
+        }
+
+        .flex {
+
+          display: flex;
+
+        }
+
+        .flex img {
+          padding-left: 9.5rem;
+      
+        }
+
+        .container-fluid h1 {
+          padding-left: 3rem;
+          padding-top: 3.5rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: normal;
+          font-size: 1.98rem;
+        }
+
+        .page-item {
+         text-align: center;
+         
+        }
+
+        .nav {
+          padding-top: -10rem;
+        }
+
+        .undertext {
+          text-align: left;
+          font-size: 1.3rem;
+          padding-left: 53rem;
+          margin-top: -17rem;
+          
+        }
+
+        .undertext p {
+          margin: 1.4rem;
+          width: 55rem;
+        }
+
+        .pagination {
+          display: flex;
+          list-style: none;
+        }
+
     </style>
 </head>
 <body>
@@ -673,13 +727,23 @@ input[type="text"], select {
 
 
             <div class="container-fluid">
+              <div class="flex">
               <img src="http://127.0.0.1:8080/bilder/1.jpg" alt="" class="text-white text-center m-5">
-              <h1 class="text-white text-center">Image1</h1>
-              <h1 class="display-1 text-white text-center m-5">1</h1>
+              <h1 class="text-white text-center">Market Square in Amalfi Then and Now Photo and Oil Painting.</h1>
+              </div>
+              <div class="undertext">
+              <p class="display-1 text-white text-center m-5">This painting was done in 1876. It does resemble the present day facade because the front exterior was modified in 1891 after the first one caved in.</p>
+
+              <p class="display-1 text-white text-center m-5">It is of striped marble and stone with open arches that have lace detailing not found in Italian sacred architecture while the tiled dome is quite common among churches of the area.</p>
+                
+              <p class="display-1 text-white text-center m-5">Amalfi Cathedral (Cattedrale di Sant'Andrea/Duomo di Amalfi) is a ninth century Roman Catholic structure in the Piazza del Duomo, Amalfi, Italy. It is dedicated to the Apostle Saint Andrew. Of Arab-Norman Romanesque architectural style, it has been redesigned several times, adding Romanesque, Byzantine, Gothic, and Baroque elements. The cathedral includes the adjoining ninth century Basilica of the Crucifix.</p>
+                
+                <p class="display-1 text-white text-center m-5"></p>The newer cathedral was built alongside to the older basilica that was built on the remains of a previous temple. The remaining of St. Andrew were supposedly brought to Amalfi from Constantinople in 1206 during the Fourth Crusade by Cardinal Peter of Capua in 1208.</p>
+              </div>
             </div>
 
             <nav>
-              <ul class="pagination justify-content-center fixed-bottom mb-5">
+              <ul class="pagination">
                 <li class="page-item" title="Previous">
                   <a href="" class="page-link rounded-circle m-1"><i class="fas fa-chevron-left text-primary"></i></a>
                 </li> 
@@ -690,7 +754,7 @@ input[type="text"], select {
                 <li class="page-item"><a href="pagination5.html" class="page-link rounded-circle m-1">5</a></li>
 
                 <li class="page-item" title="Next">
-                  <a href="pagination5" class="page-link rounded-circle m-1"><i class="fas fa-chevron-right text-primary"></i></a>
+                  <a href="pagination3.html" class="page-link rounded-circle m-1"><i class="fas fa-chevron-right text-primary"></i></a>
                 </li>
               </ul>
             </nav>
