@@ -39,6 +39,9 @@ const server = http.createServer((req, res) => {
                      case '/ThenAndNow':
                      url = 'ThenAndNow.html';
                      break;
+                     case '/Pagination2':
+                        url = 'Pagination2.html';
+                        break;
                      case '/OurArtists':
                          url = 'OurArtists.html';
                          break;
