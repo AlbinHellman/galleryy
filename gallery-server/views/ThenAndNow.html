@@ -653,18 +653,24 @@ input[type="text"], select {
           display: flex;
           list-style: none;
           justify-content: right;
-         padding-left: 98.5rem;
+         padding-left: 80.5rem;
           padding-top: 2rem;
           justify-content: space-between;
-          width: 18rem;
+          width: 30rem;
         }
 
         .pagination li {
-          background-color: red;
+          background-color: #C1C1C1;
           height: 2rem;
-          width: 2rem;
-          border-radius: 50%;
+          width: 3.5rem;
+          border-radius: 10%;
+          padding-top: 0.8rem;
+          text-decoration: none;
         }
+
+        .pagination li:hover:not(.page-item active) {background-color: grey;}
+
+       
 
     </style>
 </head>
@@ -755,8 +761,8 @@ input[type="text"], select {
             </div>
 
             <nav>
-              <ul class="pagination">
-                <li class="page-item" title="Previous">
+              <ul class="pagination fixed-bottom mb-5">
+                <li class="page-item disabled" title="Previous">
                   <a href="" class="page-link rounded-circle m-1"><i class="fas fa-chevron-left text-primary"></i></a>
                 </li> 
                 <li class="page-item active"><a href="ThenAndNow.html" class="page-link">1</a></li>
